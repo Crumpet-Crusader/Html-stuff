@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html>
+<body style="background-color:rgb(255, 255, 255);">
+<head>
+<title>Restaurant</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta content="text/html; charset=iso-8859-2" http-equiv="Content-Type">
+<style>
+body {margin:0;}
+
+
+.navbar {
+    overflow: hidden;
+    background-color:black;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.navbar a:hover {
+    background: #2e2e2e;
+    color: rgb(255, 255, 255);
+}
+
+.main {
+    padding: 0px;
+    margin-top: 30px;
+    height: 3750px;
+}
+
+
+</style>
+</head>
+<div class = "main">
+<div class="navbar">
+    <a href="#home">Home</a>
+    <a href="#Starters">Starters</a>
+    <a href="#Mains">Mains</a>
+    <a href="#Desserts">Desserts</a>
+    <a href="#contact">Contact</a>
+  </div>
+
+
+<body style="background-color:white">
+<style>
+.Title {
+    text-align: center;
+    font-size: 30px;
+  font-family: "Sofia", sans-serif;
+    color:rgb(255, 255, 255); 
+    background-color: rgb(15, 38, 100);
+    border: 3px solid rgb(0, 0, 0);
+  margin: 10px;
+  padding: 10px;
+}
+.Heading {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(0, 0, 0)
+}
+</style>
+<br>
+<div class = "Title"> <u>
+<h2> Generic Restaurant Name</h2>
+</div>
+<h2 class = "Heading"> Examples of our food</h2></u>
+
+
+<style>
+.mySlides {
+    display:none;
+    background-color: rgb(15,38,100);
+    border: 3px solid rgb(0, 0, 0);
+  margin: 20px;
+  padding: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+  
+  }
+</style>
+<body>
+
+<div>
+    <img class="mySlides" src="C:\Users\james\OneDrive\Documents\HTML\food1.jpg" alt="food1"  width="700" length="600" height="500">
+    <img class="mySlides" src="C:\Users\james\OneDrive\Documents\HTML\food2.jpg" alt="food2"  width="700" length="600" height="500">
+    <img class="mySlides" src="C:\Users\james\OneDrive\Documents\HTML\food3.jpg" alt="food3"  width="700" length="600" height="500">
+    <img class="mySlides" src="C:\Users\james\OneDrive\Documents\HTML\food4.jpg" alt="food4"  width="700" length="600" height="500">
+</div>
+<script>
+    var myIndex = 0;
+    carousel();
+    
+    function carousel() {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";  
+      }
+      myIndex++;
+      if (myIndex > x.length) {myIndex = 1}    
+      x[myIndex-1].style.display = "block";  
+      setTimeout(carousel, 2000);
+    }
+    </script>
+
+</body>
+<br>
+
+
+<marquee width="100%" id="text">
+    <body>
+        <h1 class="Heading"> Our restaurant has a 4.5/5 star rating!</h1>
+
+    </body>  
+</marquee>
+<h1 class="Heading"> Starters </h1>
+
+
+<style>
+.Borders{
+    background-color: rgb(15,38,100);
+    color:rgb(15,38,100);
+    }
+.pageEnd1{
+    background-color: rgb(15, 38, 100);
+    height: 150px;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(255, 255, 255)
+}
+.pageEnd2{
+    background-color: rgb(15, 38, 100);
+    height: 300px;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(255, 255, 255)
+}
+.column {
+    flex: 33.33%;
+  padding: 5px;
+}
+
+.row {
+  display: flex;
+}
+.display{
+    display:none;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+.foodname{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(0, 0, 0)
+}
+.myimages {
+    display:none;
+    background-color: rgb(15,38,100);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  }
+</style>
+<h1 class="Borders"> placehold </h1>
+
+
+
+<div class="row">
+    <div class="column">
+      <img class="display" src="C:\Users\james\OneDrive\Documents\HTML\starter1.webp" alt="starter1"   width="350" length="300" height="250">
+      <h2 class="foodname"> Jamon and wild galic croquetas</h2>
+    </div>
+    <div class="column">
+      <img  class="display" src="C:\Users\james\OneDrive\Documents\HTML\starter2.webp" alt="starter2" width="350" length="300" height="250">
+      <h2 class="foodname"> Smoked mackerel on toasted crumpets</h2>
+    </div>
+    <div class="column">
+      <img  class="display" src="C:\Users\james\OneDrive\Documents\HTML\starter3.webp" alt="starter3" width="350" length="300" height="250">
+      <h2 class="foodname"> Triple cheese and tarragon-stuffed mushrooms</h2>
+    </div>
+  </div>
+
+  <h1 class="Borders"> placehold </h1>
+  <h2 class="Heading"> Main Courses</h2>
+  <h1 class="Borders"> placehold </h1>
+  
+  <div class="row">
+    <div class="column">
+      <img class="display" src="C:\Users\james\OneDrive\Documents\HTML\main1.jpg" alt="main1"   width="350" length="300" height="250">
+      <h2 class="foodname"> Spaghetti bolognese</h2>
+    </div>
+    <div class="column">
+      <img  class="display" src="C:\Users\james\OneDrive\Documents\HTML\main2.jpg" alt="main2" width="350" length="300" height="250">
+      <h2 class="foodname"> Steak and chips</h2>
+    </div>
+    <div class="column">
+      <img  class="display" src="C:\Users\james\OneDrive\Documents\HTML\main3.jpg" alt="main3" width="350" length="300" height="250">
+      <h2 class="foodname"> Burger</h2>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="column">
+      <img class="display" src="C:\Users\james\OneDrive\Documents\HTML\main4.jpg" alt="main4"   width="350" length="300" height="250">
+      <h2 class="foodname"> Penne arrabbiata</h2>
+    </div>
+    <div class="column">
+      <img  class="display" src="C:\Users\james\OneDrive\Documents\HTML\main5.jpg" alt="main5" width="350" length="300" height="250">
+      <h2 class="foodname"> Pepperoni Pizza</h2>
+    </div>
+    <div class="column">
+      <img  class="display" src="C:\Users\james\OneDrive\Documents\HTML\main6.jpg" alt="main6" width="350" length="300" height="250">
+      <h2 class="foodname"> Salmon</h2>
+    </div>
+  </div>
+
+  
+  <h1 class="Borders"> placehold </h1>
+  <h2 class="Heading"> Desserts</h2>
+  <h1 class="Borders"> placehold </h1>
+
+  
+  <div class="row">
+    <div class="column">
+      <img class="display" src="C:\Users\james\OneDrive\Documents\HTML\dessert1.jpg" alt="dessert1"   width="350" length="300" height="250">
+      <h2 class="foodname"> Ice cream</h2>
+    </div>
+    <div class="column">
+      <img  class="display" src="C:\Users\james\OneDrive\Documents\HTML\dessert2.jpg" alt="dessert2" width="350" length="300" height="250">
+      <h2 class="foodname"> Chocolate fudge cake</h2>
+    </div>
+    <div class="column">
+      <img  class="display" src="C:\Users\james\OneDrive\Documents\HTML\dessert3.jpg" alt="dessert3" width="350" length="300" height="250">
+      <h2 class="foodname"> Creme Brulee</h2>
+    </div>
+  </div>
+  <br>
+  <br>
+  <br>
+  <h1 class="Borders"> placehold </h1>
+  <h2 class="pageEnd1"> 
+    Contacts<br>
+    How to contact us<br><br>
+    Please dont!<br><br>
+    <img class="myimages" src="C:\Users\james\OneDrive\Documents\HTML\thanks.jpg" alt="thanks">
+    <br>
+    </h2>
+
+
+
+
+    <br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+<h2 class="pageEnd2">
+    
+    Compaints:
+    <form action="/action_page.php">
+        <label for="fname">What is your complaint:</label><br>
+        <input type="text" id="fname" name="fname" value=""><br>
+        <label for="lname">Email adress:</label><br>
+        <input type="text" id="lname" name="lname" value=""><br>
+        <input type="submit" value="Submit">
+      </form> 
+    </h2>
+  
+
+</body>
+</html>
+
